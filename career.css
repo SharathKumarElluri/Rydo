@@ -1,0 +1,46 @@
+body{
+margin-top:80px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.career-main{
+padding:120px 20px 80px;
+background:#f4f4f4;
+}
+
+.benefit-card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+height:100%;
+}
+
+.benefit-card i{
+font-size:40px;
+color:#FFC300;
+margin-bottom:15px;
+}
+
+.employee-feedback{
+padding:60px 20px;
+background:#fafafa;
+}
+
+.feedback-card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+height:100%;
+}
+
+.feedback-card span{
+color:#777;
+font-size:14px;
+}
+
+.career-join{
+background:#FFC300;
+padding:60px 20px;
+}

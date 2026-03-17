@@ -1,0 +1,32 @@
+body{
+margin-top:80px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.safety-main{
+padding:120px 20px 60px;
+background:#f4f4f4;
+}
+
+.safety-card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+height:100%;
+}
+
+.safety-card i{
+font-size:40px;
+color:#FFC300;
+margin-bottom:15px;
+}
+
+.safety-tips{
+background:#FFC300;
+padding:60px 20px;
+}
+
+.safety-tips ul{
+font-size:18px;
+}
