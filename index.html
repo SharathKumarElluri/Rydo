@@ -20,37 +20,23 @@
 <div class="container">
 
 <a class="navbar-brand d-flex align-items-center" href="#">
-<img src="logo.png" width="40" class="me-2 rounded main-logo">
-Rydo
+<div class="logo-circle me-2">
+    <img src="logo.png" alt="logo">
+</div>
+<span class="text-white">Rydo</span>
 </a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
 <span class="navbar-toggler-icon"></span>
 </button>
 
 <div class="collapse navbar-collapse" id="menu">
 <ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="index.html">Home</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="safety.html">Safety</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="career.html">Career</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="about.html">About Us</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact Us</a>
-</li>
-
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="safety.html">Safety</a></li>
+<li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
 </ul>
 </div>
 
@@ -58,101 +44,94 @@ Rydo
 </nav>
 
 <section class="main container">
-
 <div class="row align-items-center">
 
 <div class="col-lg-6 text-lg-start text-center">
-
 <h1 class="display-5 heading">Move Faster, Ride Smarter</h1>
-
-<p class="lead">
-Experience the easiest way to travel across the city with just one tap
-</p>
-
+<p class="lead">Experience the easiest way to travel across the city with just one tap</p>
 <div class="d-flex gap-3 justify-content-lg-start justify-content-center">
 
-<a href="#">
+<a href="https://play.google.com/store/apps/details?id=com.example.app" target="_blank">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="170">
 </a>
 
-<button class="btn btn-warning px-4">Start Ride</button>
+<button class="btn btn-warning px-4" data-bs-toggle="modal" data-bs-target="#rideModal">
+Start Ride
+</button>
 
 </div>
-
 </div>
 
 <div class="col-lg-6 text-center mt-4 mt-lg-0">
-
 <img src="main-img 2.0.png" class="img-fluid">
-
 </div>
 
 </div>
-
 </section>
 
+<div class="modal fade" id="rideModal" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content ride-modal">
+
+<div class="modal-header border-0">
+<h5 class="modal-title fw-bold">Book Your Ride</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+
+<form>
+<div class="mb-3">
+<label class="form-label">From Location</label>
+<input type="text" class="form-control" placeholder="Enter pickup location">
+</div>
+
+<div class="mb-3">
+<label class="form-label">To Location</label>
+<input type="text" class="form-control" placeholder="Enter destination">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Select Ride</label>
+<select class="form-select">
+<option>Bike</option>
+<option>Auto</option>
+<option>Auto Share</option>
+<option>Parcel</option>
+<option>Cab Economy</option>
+<option>Cab Premium</option>
+
+</select>
+</div>
+
+<div class="d-grid">
+<button class="btn btn-book">Book Ride</button>
+</div>
+
+</form>
+
+</div>
+</div>
+</div>
+</div>
 
 <section class="bg-light py-5">
-
 <div class="container text-center">
-
 <h2 class="mb-5 fw-bold">Our Services</h2>
 
 <div class="row g-4">
-
-<div class="col-6 col-md-4 col-lg-2">
-<div class="service-box">
-<span class="display-5">🏍️</span>
-<p>Bike</p>
-</div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-2">
-<div class="service-box">
-<span class="display-5">🛺</span>
-<p>Auto</p>
-</div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-2">
-<div class="service-box">
-<span class="display-5">🛺👥</span>
-<p>Auto Share</p>
-</div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-2">
-<div class="service-box">
-<span class="display-5">📦</span>
-<p>Parcel</p>
-</div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-2">
-<div class="service-box">
-<span class="display-5">🚕</span>
-<p>Cab Economy</p>
-</div>
-</div>
-
-<div class="col-6 col-md-4 col-lg-2">
-<div class="service-box">
-<span class="display-5">🚖</span>
-<p>Cab Premium</p>
-</div>
+<div class="col-6 col-md-4 col-lg-2"><div class="service-box"><span class="display-5">🏍️</span><p>Bike</p></div></div>
+<div class="col-6 col-md-4 col-lg-2"><div class="service-box"><span class="display-5">🛺</span><p>Auto</p></div></div>
+<div class="col-6 col-md-4 col-lg-2"><div class="service-box"><span class="display-5">🛺👥</span><p>Auto Share</p></div></div>
+<div class="col-6 col-md-4 col-lg-2"><div class="service-box"><span class="display-5">📦</span><p>Parcel</p></div></div>
+<div class="col-6 col-md-4 col-lg-2"><div class="service-box"><span class="display-5">🚕</span><p>Cab Economy</p></div></div>
+<div class="col-6 col-md-4 col-lg-2"><div class="service-box"><span class="display-5">🚖</span><p>Cab Premium</p></div></div>
 </div>
 
 </div>
-
-</div>
-
 </section>
 
-
 <section class="py-5 text-center">
-
 <div class="container">
-
 <h2 class="fw-bold mb-5">Awesome Features</h2>
 
 <div class="row g-4">
@@ -190,16 +169,11 @@ Experience the easiest way to travel across the city with just one tap
 </div>
 
 </div>
-
 </div>
-
 </section>
 
-
 <section class="bg-light py-5 text-center">
-
 <div class="container">
-
 <h2 class="fw-bold mb-5">Key Benefits</h2>
 
 <div class="row g-4">
@@ -221,7 +195,7 @@ Experience the easiest way to travel across the city with just one tap
 <div class="col-md-3">
 <div class="benefit-card">
 <h5>Fast Booking</h5>
-<p>Book your ride instantly anytime,anywhere         </p>
+<p>Book your ride instantly anytime, anywhere</p>
 </div>
 </div>
 
@@ -233,15 +207,10 @@ Experience the easiest way to travel across the city with just one tap
 </div>
 
 </div>
-
 </div>
-
 </section>
 
-
-
 <footer class="bg-dark text-light py-5">
-
 <div class="container">
 
 <div class="row">
@@ -281,7 +250,6 @@ Experience the easiest way to travel across the city with just one tap
 <p class="text-center">© 2026 Rydo App. All Rights Reserved.</p>
 
 </div>
-
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -44,3 +44,18 @@ font-size:14px;
 background:#FFC300;
 padding:60px 20px;
 }
+
+/* Modal Styling */
+.modal-content{
+border-radius:15px;
+padding:10px;
+}
+
+.form-control,
+.form-select{
+border-radius:10px;
+}
+
+.btn-warning{
+font-weight:bold;
+}
