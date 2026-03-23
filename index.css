@@ -37,6 +37,27 @@ font-family:Arial, Helvetica, sans-serif;
 padding:80px 0;
 }
 
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #28a745;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  z-index: 9999;
+  transition: 0.3s ease;
+}
+
+.custom-alert.show {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+
 .heading{
 font-size:50px;
 font-weight:bold;
