@@ -1,0 +1,40 @@
+body {
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(135deg, #000, #444);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-weight: bold;
+}
+
+/* CARD STYLE */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* HEADINGS */
+h4 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 576px) {
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+}
