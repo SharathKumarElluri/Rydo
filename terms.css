@@ -1,8 +1,37 @@
-body {
-  background: #f5f7fa;
-  font-family: Arial, sans-serif;
+body{
+margin-top:80px;
+font-family:Arial, Helvetica, sans-serif;
 }
 
+.main-logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    object-fit: cover;
+    display: block;
+}
+
+
+.logo-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #f6b400;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+     box-shadow: 0 0 8px rgba(246, 180, 0, 0.5);
+}
+
+.logo-circle img {
+    width: 130%;
+    height: 130%;
+    object-fit: contain;
+    transform: translate(5%, 5%);
+}
 /* HERO SECTION */
 .hero {
   background: linear-gradient(135deg, #000, #444);
